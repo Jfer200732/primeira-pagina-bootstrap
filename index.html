@@ -1,20 +1,23 @@
 <!doctype html>
 <html lang="pt-PT">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recursos de Programação - O meu guia</title>
-  
+
   <!-- CSS do Bootstrap 5.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body id="inicio">
 
   <!-- Menu de navegação -->
   <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark" aria-label="Navegação principal">
     <div class="container">
       <a class="navbar-brand" href="#inicio">CodeHub</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="menuPrincipal">
@@ -39,33 +42,55 @@
     <!-- Secção Sobre -->
     <section id="sobre" class="mb-5">
       <h2>Sobre esta página</h2>
-      <p>Esta página reúne hiperligações essenciais que utilizo diariamente durante os meus estudos de desenvolvimento web e programação em C.</p>
+      <p>Esta página reúne hiperligações essenciais que utilizo diariamente durante os meus estudos de desenvolvimento
+        web e programação em C.</p>
     </section>
 
     <!-- Secção Recursos com Cartões (Grelha de 2 colunas) -->
+    <!-- Secção Recursos com Cartões (Grelha de 3 colunas) -->
     <section id="recursos" class="mb-5">
       <h2 class="mb-4">Recursos Úteis</h2>
       <div class="row g-4">
+
         <!-- Cartão 1 -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <div class="card h-100">
             <div class="card-body d-flex flex-column">
               <h3 class="card-title h5">MDN Web Docs</h3>
-              <p class="card-text flex-grow-1">A melhor documentação sobre HTML, CSS e JavaScript para consultar elementos e seletores.</p>
-              <a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer" class="btn btn-primary align-self-start">Visitar MDN</a>
+              <p class="card-text flex-grow-1">A melhor documentação sobre HTML, CSS e JavaScript para consultar
+                elementos e seletores.</p>
+              <a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer"
+                class="btn btn-primary align-self-start">Visitar MDN</a>
             </div>
           </div>
         </div>
+
         <!-- Cartão 2 -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <div class="card h-100">
             <div class="card-body d-flex flex-column">
               <h3 class="card-title h5">Bootstrap Docs</h3>
-              <p class="card-text flex-grow-1">Documentação oficial do Bootstrap para consultar componentes, utilitários e o sistema de grelha.</p>
-              <a href="https://getbootstrap.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary align-self-start">Visitar Bootstrap</a>
+              <p class="card-text flex-grow-1">Documentação oficial do Bootstrap para consultar componentes e o sistema
+                de grelha.</p>
+              <a href="https://getbootstrap.com" target="_blank" rel="noopener noreferrer"
+                class="btn btn-primary align-self-start">Visitar Bootstrap</a>
             </div>
           </div>
         </div>
+
+        <!-- Cartão 3 (O novo para completar o desafio) -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">W3Schools</h3>
+              <p class="card-text flex-grow-1">Tutoriais e exemplos práticos para aprender desenvolvimento web passo a
+                passo.</p>
+              <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer"
+                class="btn btn-primary align-self-start">Visitar W3Schools</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -75,7 +100,8 @@
     </div>
   </main>
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
