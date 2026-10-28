@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>A minha primeira página</title>
+  <title>Recursos de Programação - O meu guia</title>
   
   <!-- CSS do Bootstrap 5.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body id="inicio">
 
-  <!-- Menu de navegação (Navbar) -->
+  <!-- Menu de navegação -->
   <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark" aria-label="Navegação principal">
     <div class="container">
-      <a class="navbar-brand" href="#inicio">O meu espaço</a>
+      <a class="navbar-brand" href="#inicio">CodeHub</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,57 +26,56 @@
     </div>
   </nav>
 
- >
+  <!-- Cabeçalho -->
   <header class="bg-body-tertiary py-5">
     <div class="container">
-      <h1 class="display-5 fw-bold">A minha primeira página</h1>
-      <p class="lead mb-0">Estou a aprender HTML e a construir páginas com Bootstrap.</p>
+      <h1 class="display-5 fw-bold">Recursos de Programação</h1>
+      <p class="lead mb-0">Uma coleção de ferramentas e documentação úteis para estudantes de informática.</p>
     </div>
   </header>
 
-  
+  <!-- Conteúdo principal -->
   <main class="container my-5">
+    <!-- Secção Sobre -->
     <section id="sobre" class="mb-5">
       <h2>Sobre esta página</h2>
-      <p>Este é um exercício de Laboratórios de Informática. Vou experimentar texto, ligações e uma grelha que se adapta ao ecrã.</p>
+      <p>Esta página reúne hiperligações essenciais que utilizo diariamente durante os meus estudos de desenvolvimento web e programação em C.</p>
     </section>
 
-    <section id="recursos">
-      <h2>Recursos</h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+    <!-- Secção Recursos com Cartões (Grelha de 2 colunas) -->
+    <section id="recursos" class="mb-5">
+      <h2 class="mb-4">Recursos Úteis</h2>
+      <div class="row g-4">
+        <!-- Cartão 1 -->
+        <div class="col-12 col-md-6">
           <div class="card h-100">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagem de exemplo 1">
-            <div class="card-body">
-              <h5 class="card-title">Recurso 1</h5>
-              <p class="card-text">Descrição do recurso 1. Este é um exemplo de cartão com uma imagem e texto.</p>
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">MDN Web Docs</h3>
+              <p class="card-text flex-grow-1">A melhor documentação sobre HTML, CSS e JavaScript para consultar elementos e seletores.</p>
+              <a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer" class="btn btn-primary align-self-start">Visitar MDN</a>
             </div>
           </div>
         </div>
-        <div class="col">
+        <!-- Cartão 2 -->
+        <div class="col-12 col-md-6">
           <div class="card h-100">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagem de exemplo 2">
-            <div class="card-body">
-              <h5 class="card-title">Recurso 2</h5>
-              <p class="card-text">Descrição do recurso 2. Este cartão também se adapta ao tamanho do ecrã.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagem de exemplo 3">
-            <div class="card-body">
-              <h5 class="card-title">Recurso 3</h5>
-              <p class="card-text">Descrição do recurso 3. Mais um exemplo de cartão responsivo.</p>
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">Bootstrap Docs</h3>
+              <p class="card-text flex-grow-1">Documentação oficial do Bootstrap para consultar componentes, utilitários e o sistema de grelha.</p>
+              <a href="https://getbootstrap.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary align-self-start">Visitar Bootstrap</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    >
+    <div class="text-end mb-4">
+      <a href="#inicio" class="btn btn-outline-secondary btn-sm">Voltar ao início</a>
+    </div>
   </main>
 
-  <!-- JS do Bootstrap 5.3 -->
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
