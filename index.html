@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="pt-PT">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A minha primeira página</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A minha primeira página</title>
+  
+  <!-- CSS do Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<body id="inicio">
 
-<body id="inicio" class="container py-4">
-
+  <!-- Menu de navegação (Navbar) -->
   <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark" aria-label="Navegação principal">
     <div class="container">
       <a class="navbar-brand" href="#inicio">O meu espaço</a>
@@ -27,6 +26,23 @@
     </div>
   </nav>
 
-</body>
+  <!-- Cabeçalho de apresentação -->
+  <header class="bg-body-tertiary py-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">A minha primeira página</h1>
+      <p class="lead mb-0">Estou a aprender HTML e a construir páginas com Bootstrap.</p>
+    </div>
+  </header>
 
+  <!-- Conteúdo principal -->
+  <main class="container my-5">
+    <section id="sobre" class="mb-5">
+      <h2>Sobre esta página</h2>
+      <p>Este é um exercício de Laboratórios de Informática. Vou experimentar texto, ligações e uma grelha que se adapta ao ecrã.</p>
+    </section>
+  </main>
+
+  <!-- JS do Bootstrap 5.3 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
